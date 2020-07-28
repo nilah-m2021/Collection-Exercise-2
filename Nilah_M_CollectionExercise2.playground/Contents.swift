@@ -56,7 +56,7 @@ print(coolestCoinsListArray)
 var coolestCoinsListArray: [String] = ["Eisenhower Bicentennial Dollar Coin (1776-1976)" , "Kennedy Bicentennial Half-Dollar Coin (1776-1976)" , "Washington Bicentennial Quarter (1776-1976)" , "Liberty Head \"V\" Nickel (1910)" , "Lincoln Wheat Penny (1926)" , "Dateless Buffalo Nickel" , "Sacagawea Gold Dollar Coin (2000 D)" , "Susan B. Anthony Silver Dollar Coin (1979 D)" , "Jefferson Nickel (1940)" , "Hamilton 10 Dollar Bill (1950 series B)"]
 // numOfElements are the count - 1 because the array starts at 0
 var numOfElements = coolestCoinsListArray.count - 1
-// i and j are variables I assigned - they can be anything
+// X and Y are variables I assigned - they can be anything
 for X in 0...numOfElements{
 // this lower loops loops through 0 to 3 because we do not need to go further than comparing 3 to 4
     for Y in 0...numOfElements - 1{
